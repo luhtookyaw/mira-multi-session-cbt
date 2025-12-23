@@ -1,0 +1,62 @@
+{
+    "thought": "I frequent this animal shelter. All of the animals remembered me except a few, I can never go back there again they will hate me", 
+    "patterns": [
+        "catastrophizing", 
+        "discounting the positive", 
+        "labeling and mislabeling", 
+        "mental filtering", 
+        "jumping to conclusions: mind reading", 
+        "jumping to conclusions: fortune-telling", 
+        "personalization", "black-and-white or polarized thinking / all or nothing thinking"
+    ], 
+    "intake_form": {
+        "client_info": {
+            "name": "Brooke Davis",
+            "age": 41,
+            "gender": "female",
+            "occupation": "Veterinary Assistant",
+            "education": "Certified Veterinary Technician",
+            "marital_status": "Single",
+            "family_details": "Lives alone with multiple pets"
+        },
+        "presenting_problem": [
+            "I feel anxious and avoid going back to the animal shelter because I believe the animals there will hate me for not remembering me. This leads to feelings of guilt and self-blame.",
+            "These feelings started a few months ago after a visit to the shelter where some animals did not greet me as warmly as before.", 
+            "I believe the stress level when this problem started was moderate, as I tend to internalize situations related to animals.", 
+            "The problem has escalated over time, causing me to avoid the shelter altogether. The fear of being rejected by the animals has grown stronger.", 
+            "I experience these negative thoughts and emotions whenever I think about returning to the animal shelter.", 
+            "I have tried to challenge these thoughts on my own but have been unsuccessful in changing my beliefs."
+        ],
+        "reason_for_seeking_counseling": "I decided to seek counseling because this issue has started affecting my daily life and my passion for working with animals.",
+        "past_history": [
+            "I have not experienced similar problems before.",
+            "I have not received treatment or counseling for psychological problems in the past.",
+            "I do not have any significant physical illnesses."
+        ],
+        "academic_occupational_functioning_level": [
+            "My job performance as a veterinary assistant has not been affected yet, but my passion for working with animals has dwindled.",
+            "Interpersonal relationships: My relationships with other animal shelter volunteers have been strained as I have distanced myself because of this issue.",
+            "Daily life: My anxiety about going to the shelter has disrupted my sleep patterns and overall well-being."
+        ],
+        "social_support_system": "I have a few close friends who are supportive, but they do not fully understand the extent of my anxiety related to the animal shelter."
+    },
+    "cbt_technique": "Decatastrophizing",
+    "cbt_plan": {
+        "1": "Identify Catastrophic Thinking Patterns: We will start by identifying the situations that trigger your catastrophic thinking, such as feeling that all the animals at the shelter hate you because a few didn't remember you. We will explore the thoughts and beliefs that contribute to this pattern.",
+        "2": "Challenge Negative Beliefs: Once we have identified these patterns, we will work on challenging the negative beliefs associated with catastrophizing. We will examine evidence that supports and contradicts these beliefs to develop a more balanced perspective.",
+        "3": "Reframing: We will practice reframing your thoughts about the situation at the animal shelter. For example, instead of assuming that the animals hate you, we will focus on more balanced and realistic interpretations of their behavior.",
+        "4": "Behavioral Experiments: To test the validity of your catastrophic thoughts, we may engage in behavioral experiments. These experiments will help you gather evidence to challenge your initial beliefs and develop more adaptive thinking patterns.",
+        "5": "Homework Assignments: I may assign you homework tasks to practice decatastrophizing on your own outside of our sessions. These assignments will help strengthen the skills and strategies we discuss during our counseling sessions."
+    },
+    "attitude": "negative",
+    "dialogue": [
+        {
+            "role": "Counselor",
+            "content": "Good afternoon, Brooke. Thank you for joining me today. Can you tell me a bit about what brings you to counseling?"
+        },
+        {
+            "role": "Client",
+            "content": "Hi. I've been really anxious about going back to the animal shelter where I volunteer. I feel like the animals will hate me because they didn't remember me the last time I visited. It's been really tough."
+        }
+    ]
+}
