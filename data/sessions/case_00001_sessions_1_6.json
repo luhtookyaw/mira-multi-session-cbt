@@ -114,100 +114,92 @@
       "stage_objective": "Build rapport, clarify goals, assess the problem, and agree on a simple tracking task.",
       "artifact": {
         "type": "Trigger/Thought Log",
-        "content": "Trigger/Thought Log Template\n\n| Date       | Trigger (Event)                     | Thought                            | Emotion (1-10) | Evidence For Thought                    | Evidence Against Thought                     |\n|------------|-------------------------------------|-----------------------------------|----------------|-----------------------------------------|-----------------------------------------------|\n| YYYY-MM-DD | Visiting the animal shelter          | The animals will hate me          | 8              | Some animals didn’t remember me             | Many have greeted me warmly in the past       |\n| YYYY-MM-DD | Seeing pictures of the shelter      | I am not good enough at my work   | 7              | I didn’t bond with some new animals          | I’ve helped many animals who trust me        |"
+        "content": "1. Situation: Walking past the shelter\n   Thought: The animals will hate me for leaving\n   Emotion: Guilt, Anxiety\n2. Situation: Saw an advertisement for shelter volunteering\n   Thought: I'm not good enough to volunteer there anymore\n   Emotion: Self-doubt, Sadness"
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Welcome back, Brooke. I'm glad we’re continuing our work together. How have you been since our last session?"
+          "content": "Hi Brooke, it's good to see you again. How have things been since our last meeting?"
         },
         {
           "role": "Client",
-          "content": "I’ve been doing a little better, but I still feel uncertain about the shelter. I’ve been thinking about the animals and how they might react."
+          "content": "Hey. It's been up and down. I did try to think about what we discussed, but...it's been tough. I passed by the shelter last Tuesday, and I just couldn't bring myself to go in. I felt like if I walked in there, they'd all instantly dislike me again."
         },
         {
           "role": "Counselor",
-          "content": "It’s understandable to have those feelings. What specific thoughts have come up for you?"
+          "content": "It sounds like that was a challenging moment for you. What was going through your mind as you passed by the shelter?"
         },
         {
           "role": "Client",
-          "content": "I keep worrying that if I go back, it will be just as bad as the last time. I’m scared they will all reject me."
+          "content": "Well, my heart started racing, and I thought, 'What if they hate me for not going in sooner?' I saw some dogs playing outside, and I felt a pang of guilt, like I abandoned them or something, despite knowing it's not entirely logical."
         },
         {
           "role": "Counselor",
-          "content": "That sounds really distressing. It’s common to feel that anxiety, especially after a tough experience. Have you noticed any patterns in your thoughts while you’ve been reflecting?"
+          "content": "It's understandable to be feeling that way. It's clear you care deeply about the animals. Can you think of any other perspective that might explain their behavior the last time you visited?"
         },
         {
           "role": "Client",
-          "content": "I notice that I tend to jump to conclusions, thinking all the animals will hate me or that I’m just not good enough."
+          "content": "Yes, but...I know stress affects their behavior, and maybe they were just having an off day. But when I'm standing there, it just feels so personal. I can't shake the feeling that they've labeled me as 'the one who left.'"
         },
         {
           "role": "Counselor",
-          "content": "You’re demonstrating insight into your thinking patterns, which is a significant step. Let’s focus on that. Can you identify a specific event that triggered these thoughts recently?"
+          "content": "That makes sense, and it's normal to have those feelings. Let’s talk about how this pattern of thinking works. Sometimes our mind can jump to the worst-case scenario without enough evidence. Why do you think that happens?"
         },
         {
           "role": "Client",
-          "content": "I keep thinking about the time I saw new volunteers at the shelter, and I convinced myself that they would be better with the animals than I am."
+          "content": "I guess I'm just scared of being rejected, even by them. Animals have always been my safe space, so when they don't respond the way I expect, it throws me off completely."
         },
         {
           "role": "Counselor",
-          "content": "That’s a powerful realization. It sounds like you assessed their potential without viewing your own strengths. What does that make you feel?"
+          "content": "That fear of rejection, especially with something so meaningful to you, can indeed feel overwhelming. Would you be open to exploring how we can gather more balanced evidence that might help challenge these thoughts?"
         },
         {
           "role": "Client",
-          "content": "It makes me feel inadequate, like I'm not doing enough for the animals."
+          "content": "Yeah, but I don't know if it'll change much. I tried observing from a distance when I walked by, but it didn't help. I felt useless."
         },
         {
           "role": "Counselor",
-          "content": "Feeling inadequate can be very overwhelming. Can you think of any evidence that supports or contradicts that thought about your effectiveness?"
+          "content": "You did take a significant step by trying to observe, and that's where we can build from. Sometimes keeping a log of these thoughts and situations can help us see patterns or triggers. How does tracking these thoughts sound to you?"
         },
         {
           "role": "Client",
-          "content": "I know I care a lot about them and I've helped numerous animals, but those thoughts just drown out the positives."
+          "content": "I guess I could try. It might be good to see it all laid out. What would that involve exactly?"
         },
         {
           "role": "Counselor",
-          "content": "It’s easy to focus on those negative thoughts, especially if they’ve been reinforced. What if we worked together to write down those thoughts and the evidence for and against them?"
+          "content": "We can start with a simple log. Note down the situation, your immediate thought, and the emotions you experience. It might give us insight into how these thoughts link to your feelings."
         },
         {
           "role": "Client",
-          "content": "That sounds like a good idea, but I’m worried about seeing it all laid out."
+          "content": "Alright, I can try to remember to do that. I'm often caught up in the moment, though. What if I miss some?"
         },
         {
           "role": "Counselor",
-          "content": "It's normal to feel apprehensive, but this process will help us identify patterns and challenge them. Would you be open to trying a 'Trigger/Thought Log' for the next week?"
+          "content": "It's okay if you miss some. The goal is not perfection but to start identifying patterns. Shall we draft a couple of entries based on this past week as practice?"
         },
         {
           "role": "Client",
-          "content": "Yeah, I can give it a shot."
+          "content": "Okay, let me think. So, situation one: walking past the shelter... the thought was 'the animals will hate me for leaving.' Then I felt guilt and anxiety."
         },
         {
           "role": "Counselor",
-          "content": "Great! I’ll provide you with a template to fill out whenever you notice those thoughts. You'll write the trigger, your thoughts, emotions, and the evidence for and against those thoughts."
+          "content": "Great start. Let's add another: perhaps when you saw an advertisement for shelter volunteering?"
         },
         {
           "role": "Client",
-          "content": "Okay, that makes sense."
+          "content": "Right, that made me think 'I'm not good enough to volunteer there anymore,' and I felt self-doubt and sadness."
         },
         {
           "role": "Counselor",
-          "content": "Remember that this log is a tool for us to explore together. I’ll walk you through filling out the first few entries next time. It’s about gathering information to help shift your perspective."
+          "content": "That’s a strong pattern. Let's continue this throughout the week and see what comes up. Next session, we can look at these entries together. Does that sound like a plan?"
         },
         {
           "role": "Client",
-          "content": "That sounds helpful. I’ll try to be honest with myself when filling it out."
+          "content": "Yeah, I'll try it. I'm still not convinced it'll work, but I can at least see it through."
         },
         {
           "role": "Counselor",
-          "content": "I appreciate your openness, Brooke. As we wrap up today, I want to summarize what we've covered. We’ve identified some patterns of catastrophic thinking and agreed on using the 'Trigger/Thought Log' to track your experiences."
-        },
-        {
-          "role": "Client",
-          "content": "Yes, thank you for helping me see it differently."
-        },
-        {
-          "role": "Counselor",
-          "content": "Of course! Remember, it's all about taking small steps. I look forward to seeing your log entries next time, and we'll work together to challenge those thoughts further."
+          "content": "Thank you for being open to trying this. Remember, progress takes time, and we're in this together. I look forward to seeing you next week."
         }
       ]
     },
@@ -217,108 +209,92 @@
       "stage_objective": "Review the log and map situation→thought→emotion→body→behavior to identify automatic thoughts.",
       "artifact": {
         "type": "CBT Map",
-        "content": "Situation: Visiting the animal shelter. Automatic Thought: The animals will hate me. Emotions: Anxiety (8), Guilt (7). Body Sensations: Racing heart, tight chest. Behaviors: Avoiding the shelter."
+        "content": "Situation: Walking past the shelter\nAutomatic Thought: The animals hate me for not remembering them\nEmotions (0-10): Guilt (8), Anxiety (7)\nBody Sensations: Tightness in chest\nBehaviors: Avoidance, looking away from the shelter"
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Welcome back, Brooke. How have you been since our last session?"
+          "content": "Hi Brooke, it's great to see you again. How did the last week go with observing and noting your thoughts and experiences?"
         },
         {
           "role": "Client",
-          "content": "I've been thinking a lot about what we talked about. I tried to observe my thoughts, but it’s still difficult."
+          "content": "Hi. I tried to observe the animals' behaviors but I ended up not doing it as much as I planned. I did walk past the shelter once and my anxiety just spiked. It was really hard..."
         },
         {
           "role": "Counselor",
-          "content": "That's a great start, just engaging with your thoughts. Was there a specific situation that stood out to you?"
+          "content": "That sounds like a challenging experience. It's understandable given the situation. What thoughts were running through your mind during that moment?"
         },
         {
           "role": "Client",
-          "content": "Yes, I reflected on my visit to the shelter last week. I can't shake the feeling that the animals didn't remember me."
+          "content": "I just kept thinking that the animals hate me for not remembering them. The idea that I let them down was overwhelming. It's like even passing by was too much to handle."
         },
         {
           "role": "Counselor",
-          "content": "It sounds like that experience had a strong emotional impact. What specific thoughts came up for you during that visit?"
+          "content": "It seems like those thoughts are deeply distressing for you. Let’s take a closer look at this situation. Could we map out what you experienced?"
         },
         {
           "role": "Client",
-          "content": "I thought they must hate me for not remembering. It felt awful."
+          "content": "Sure, I guess. I was avoiding looking directly at the shelter, and my heart was racing. I felt this tightness in my chest, like everything was closing in."
         },
         {
           "role": "Counselor",
-          "content": "That thought seems quite powerful. Let’s break it down. What emotions did that thought trigger for you?"
+          "content": "That's a significant reaction. So, walking past triggered an automatic thought—the animals hate me—and your emotions followed. How strong were those emotions on a scale of 0 to 10?"
         },
         {
           "role": "Client",
-          "content": "It made me feel anxious—probably an 8—and guilty, maybe a 7. I kept replaying it in my mind."
+          "content": "The guilt was probably an 8, and the anxiety was about a 7. I know it sounds irrational, but that's how it felt."
         },
         {
           "role": "Counselor",
-          "content": "That must have been overwhelming. How about your body—did you notice any sensations?"
+          "content": "It makes sense that you'd feel that way given how important the connection is to you. What behavior did you notice about yourself when these thoughts and emotions were strong?"
         },
         {
           "role": "Client",
-          "content": "Yeah, my heart raced, and I felt a tightness in my chest. It was hard to breathe, too."
+          "content": "I tried to walk faster and avoided looking at the shelter. My avoidance kicked in pretty quickly."
         },
         {
           "role": "Counselor",
-          "content": "Those sensations make sense given how distressing those thoughts are. And what did you do in response to that feeling?"
+          "content": "Avoidance is our body's way of trying to protect us from perceived harm. Do you think that response affects how you see the situation the next time around?"
         },
         {
           "role": "Client",
-          "content": "I just avoided going back. I stayed home and didn't go near the shelter."
+          "content": "Yes, but I wish I didn’t feel the need to avoid it. There's a part of me that knows I care about them, but the fear overrides everything."
         },
         {
           "role": "Counselor",
-          "content": "So the automatic thought led to anxiety, physical sensations, and ultimately avoidance of the shelter. Let’s map this situation to better visualize it. Remember, this is an important step."
+          "content": "Acknowledging that fear is the first step. Let's continue to explore these thoughts. What’s one piece of evidence you have that contradicts the belief that the animals hate you?"
         },
         {
           "role": "Client",
-          "content": "Okay, I'm ready to map it."
+          "content": "Well, at work, the animals respond well to me. They listen and seem comfortable. It's hard to see it in the moment when I'm at the shelter, though."
         },
         {
           "role": "Counselor",
-          "content": "Great! For the situation, we have visiting the animal shelter. Now, the automatic thought was ‘the animals will hate me.’ What would you say are the emotions associated with that?"
+          "content": "That's an important observation. It shows you're capable and have a bond with animals. Recognizing this contradiction can be a helpful reminder when you feel anxious."
         },
         {
           "role": "Client",
-          "content": "Definitely anxiety at an 8, and guilt at 7."
+          "content": "I understand, logically, but emotionally it still feels like falling apart when I’m near the shelter."
         },
         {
           "role": "Counselor",
-          "content": "Perfect. Now, let’s document the body sensations."
+          "content": "It’s natural for logic and emotion to be at odds sometimes. This week, would you be open to identifying another moment, maybe at work, where you felt confident with the animals?"
         },
         {
           "role": "Client",
-          "content": "I felt a racing heart and tightness in my chest."
+          "content": "I can try. Maybe focusing on those good moments will help me see the fuller picture instead of just the bad parts."
         },
         {
           "role": "Counselor",
-          "content": "Excellent. Lastly, what was your behavior in response to these emotions?"
+          "content": "That's a great plan. We'll continue to build on this and slowly integrate these positives. Feel free to jot down anything new you observe or experience this week, and we'll review it in our next session. How does that sound?"
         },
         {
           "role": "Client",
-          "content": "I avoided going back to the shelter."
+          "content": "I’ll give it a shot. It’s not easy, but I think it’s worth trying."
         },
         {
           "role": "Counselor",
-          "content": "Excellent work, Brooke. Here’s the complete CBT Map: 'Situation: Visiting the animal shelter. Automatic Thought: The animals will hate me. Emotions: Anxiety (8), Guilt (7). Body Sensations: Racing heart, tight chest. Behaviors: Avoiding the shelter.' How does it feel to see it all laid out like this?"
-        },
-        {
-          "role": "Client",
-          "content": "It’s a bit relieving to see it clearly. It helps make sense of everything."
-        },
-        {
-          "role": "Counselor",
-          "content": "I’m glad to hear that! This clarity is an important part of identifying and challenging your negative cognitions. We can build on this in our next session."
-        },
-        {
-          "role": "Client",
-          "content": "Thank you. I’m looking forward to it."
-        },
-        {
-          "role": "Counselor",
-          "content": "Thank you for your hard work today, Brooke. Remember, this process takes time, but you’re making real progress."
+          "content": "Thank you, Brooke. I’m here to support you as we work through this together. Looking forward to hearing about your experiences next time."
         }
       ]
     },
@@ -328,108 +304,92 @@
       "stage_objective": "Reality-test distorted thoughts and generate a more balanced alternative thought.",
       "artifact": {
         "type": "Reality Test Table",
-        "content": "| Thought                                                  | Evidence For                                       | Evidence Against                                           | Balanced Thought                                       |\n|---------------------------------------------------------|---------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------|\n| The animals will hate me for not remembering me.        | Some animals didn’t greet me warmly.              | Many animals have shown me affection in past visits.      | Animals have different reasons for their behavior, including stress or new visitors.      |"
+        "content": "Thought: The animals will hate me for not remembering me. Evidence For: Some animals didn't greet me warmly. Evidence Against: They might have been tired or distracted. Staff changes could affect their behavior. Balanced Thought: The animals' behavior might not be about me personally; other factors could be at play."
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Welcome back, Brooke! I hope you’ve had some time to reflect on our last session. How did it go for you?"
+          "content": "Hi Brooke, good to see you again. How did it go with observing the animals' behavior at the shelter this past week?"
         },
         {
           "role": "Client",
-          "content": "Hi! It was a bit challenging. I tried observing the animals, but I found myself getting caught up in my thoughts again."
+          "content": "I tried to keep an eye on how they acted around different people but it was hard. I ended up getting caught up in my thoughts, especially when a couple of dogs didn’t seem interested in me. It felt like I was just proving my thoughts right."
         },
         {
           "role": "Counselor",
-          "content": "That’s completely understandable. Old patterns take time to change. What specific thoughts came up for you during your observations?"
+          "content": "It makes sense that it felt challenging. Observing without making judgments can be difficult, especially with strong emotions involved. Can we unpack some of those observations together?"
         },
         {
           "role": "Client",
-          "content": "I kept thinking that if the animals didn’t respond like they used to, it meant I was failing them."
+          "content": "Well, I noticed some dogs were really friendly with Carol, one of the other volunteers. It was like they completely forgot about me. But... Carol feeds them, so maybe that's it."
         },
         {
           "role": "Counselor",
-          "content": "It sounds like you were feeling overwhelmed by those thoughts. Let’s take a closer look at that. Can we identify the core thought and any evidence that supports it?"
+          "content": "That's an interesting point, Brooke. What do you think might have been going on for those dogs? Could there be any explanations that don't reflect on your abilities or your worth?"
         },
         {
           "role": "Client",
-          "content": "The core thought is that they will hate me for not remembering them."
+          "content": "Yeah, I guess they could just be responding to whoever feeds them. But it's hard not to take it personally when they seemed so indifferent. It felt like I wasn't doing enough... or that they just didn’t care like I thought."
         },
         {
           "role": "Counselor",
-          "content": "Great. What evidence do you think supports this thought?"
+          "content": "I understand, it's tough not to internalize that. When you think about these interactions, what specific thoughts come up? Anything you can recall?"
         },
         {
           "role": "Client",
-          "content": "Well, like I mentioned, some didn’t greet me warmly last time."
+          "content": "I mainly thought, 'They don't remember me, so why bother anymore?' It's like... everything I've done just vanished. But... I also remember thinking maybe it was just a bad day for them like you mentioned before."
         },
         {
           "role": "Counselor",
-          "content": "And what about evidence against this thought? Is there anything that contradicts that belief?"
+          "content": "Those are strong thoughts and feelings. How do these thoughts make you feel about going back to the shelter?"
         },
         {
           "role": "Client",
-          "content": "Yes, I've definitely had many positive interactions with other animals in the past. They seem to trust me."
+          "content": "It makes me want to avoid it even more. It's like every time they don't react how I expect, it just confirms my worst fears. But part of me wonders if this avoidance is making it worse."
         },
         {
           "role": "Counselor",
-          "content": "Excellent observation! It’s important to recognize that their behavior could be influenced by many factors."
+          "content": "It sounds like there's some awareness that avoidance might be reinforcing the anxiety. What might be a step you could take to gently challenge these thoughts next time?"
         },
         {
           "role": "Client",
-          "content": "I guess. There could be stressors for them that I’m not aware of."
+          "content": "Maybe... I could try reminding myself why they might not remember me that isn't about me failing. I can see logically it might be other factors, but emotionally, it's another story."
         },
         {
           "role": "Counselor",
-          "content": "Exactly. Now, let’s work together to formulate a balanced thought. What could you say to yourself instead of 'they will hate me'?"
+          "content": "It’s a start to acknowledge those possibilities. It’s okay to have both logical understanding and emotional reactions at the same time. Maybe we can work on a 'Reality Test Table' to help differentiate your thoughts. How does that sound?"
         },
         {
           "role": "Client",
-          "content": "Maybe something like 'the animals act differently for various reasons that aren’t my fault'?"
+          "content": "I guess that could work. I could list out what actually happened versus what I feared happened."
         },
         {
           "role": "Counselor",
-          "content": "That’s a great start! We can further refine that. How about, 'the animals have their own reasons for their behavior, and it doesn’t reflect my worth as a veterinary assistant'?"
+          "content": "Great, let's break it down together. First, let's define the thought clearly. Then we can look at evidence for and against it. Finally, we'll try crafting a balanced thought that considers both sides."
         },
         {
           "role": "Client",
-          "content": "I like that. It feels more realistic."
+          "content": "Okay, so the thought is 'The animals will hate me for not remembering me.' For evidence for... well, some didn’t greet me. Evidence against... uhm, like we said, they could be tired or focused on something else."
         },
         {
           "role": "Counselor",
-          "content": "Fantastic! Now, let's summarize our findings in a reality test table to visualize this process."
+          "content": "That's insightful. As we build this, let’s think of a balanced thought. How might you interpret their behavior considering everything we've talked about?"
         },
         {
           "role": "Client",
-          "content": "That sounds helpful!"
+          "content": "Maybe... It could just be the situation. Like, their response might not be about me at all. It’s a bit hard to say it out loud, but I think that’s the direction we’re going."
         },
         {
           "role": "Counselor",
-          "content": "| Thought | Evidence For | Evidence Against | Balanced Thought |\n| The animals will hate me for not remembering me. | Some animals didn’t greet me warmly. | Many animals have shown me affection in past visits. Animals have different reasons for their behavior, including stress or new visitors. |"
+          "content": "Exactly. It’s a learning curve, and you’re doing well just by engaging in this process. Would you like to keep working on these observations for next week? Maybe jot down any thoughts during visits?"
         },
         {
           "role": "Client",
-          "content": "This really helps!"
+          "content": "I’ll try to keep a written log and come up with more balanced interpretations. It still feels strange, but maybe it’ll make a difference."
         },
         {
           "role": "Counselor",
-          "content": "I’m glad to hear that. Would you like to explore any next steps before we finish today?"
-        },
-        {
-          "role": "Client",
-          "content": "Maybe I can practice these balanced thoughts before my next visit."
-        },
-        {
-          "role": "Counselor",
-          "content": "That’s a great idea! You can also keep track of any experiences that highlight your positive interactions with the animals."
-        },
-        {
-          "role": "Client",
-          "content": "I'll do that. Thanks for guiding me through this."
-        },
-        {
-          "role": "Counselor",
-          "content": "You’re very welcome! Remember, it’s a process. I look forward to hearing how it goes in our next session."
+          "content": "It’s a journey, and it’s okay to feel uncertain along the way. Thank you for being open to this. Let's check in next week to see how this strategy is working for you."
         }
       ]
     },
@@ -439,100 +399,84 @@
       "stage_objective": "Create adaptive replacement scripts and an If–Then plan for predictable triggers.",
       "artifact": {
         "type": "Replacement Script + If–Then Plan",
-        "content": "Replacement Script: When I think, 'The animals will hate me for not remembering them,' I will remind myself that animals can have many reasons for their behavior, including changes in their environment or stress. I care about them, and I recognize the times they have shown affection towards me. I can return to the shelter and focus on the positive connections I have made with the animals.\n\nIf–Then Plan: If I start feeling anxious about visiting the shelter again, then I will take a few deep breaths and remind myself of the times when animals did remember me and sought my attention.\n\nIf I notice myself avoiding the shelter, then I will schedule a visit, bringing a treat or toy for the animals, to help shift my focus back to the joy of the visit."
+        "content": "Replacement Script: It's natural for animals to not respond the same way each time. My consistent care and love build our bond, and one indifferent interaction doesn't erase that. If-Then Plans: 1. If I walk past the shelter and feel anxious, then I'll remind myself that the animals' behaviors fluctuate based on many factors, not just me. 2. If I start to feel guilty about the animals not remembering me, then I'll list recent achievements at work to counterbalance these thoughts."
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Welcome back, Brooke. I'm glad to see you. How have you been feeling since our last session?"
+          "content": "Hi Brooke, good to see you again. How have things been since we last spoke?"
         },
         {
           "role": "Client",
-          "content": "Hi. I've been trying to observe the animals, but I still feel anxious about returning to the shelter. It’s really hard to shake off these negative thoughts."
+          "content": "Hi. It's been up and down. I tried to do what we discussed, observing the animals’ behavior when I walked past the shelter again, but it just seemed pointless. It was just the same feeling of them ignoring me. I ended up thinking, what's the use?"
         },
         {
           "role": "Counselor",
-          "content": "It sounds like you're experiencing a lot of internal conflict. What specific thoughts come up when you think about going back to the shelter?"
+          "content": "It makes sense that it feels difficult. You’re experiencing strong emotions tied to the shelter. What was it like when you noticed the animals' behaviors this time?"
         },
         {
           "role": "Client",
-          "content": "I keep thinking that the animals won't want anything to do with me. I can't help but feel like I’ll be judged or that I’ll disappoint them."
+          "content": "Well, I walked by and kind of peeked in. My heart was racing, and I felt this pit in my stomach. Some were playing and seemed busy, but a couple didn’t even look my way. I started spiraling, thinking maybe they’re truly upset with me."
         },
         {
           "role": "Counselor",
-          "content": "Those thoughts are certainly difficult to handle. Let's work together to reframe some of these feelings. What evidence do you find that contradicts the idea that the animals would hate you?"
+          "content": "That sounds really distressing. Given how you feel, it's understandable to jump to conclusions. If there was another reason for the animals' reactions, what might that be?"
         },
         {
           "role": "Client",
-          "content": "I remember that there were several animals who were happy to see me in the past, and I helped some of them find homes."
+          "content": "Logically, I know they could be playing, or maybe even tired. But it’s hard not to feel like I’m at fault. It’s like, yes, maybe they were distracted, but I still felt that awful pang of guilt."
         },
         {
           "role": "Counselor",
-          "content": "Exactly! It's essential to acknowledge those positive experiences. They are part of a bigger picture. What if we created a compassionate replacement script to help you reframe those anxious thoughts?"
+          "content": "This internal conflict is common in situations that matter deeply to us. So let's think about what might help when these feelings arise again. What would you tell yourself to refocus when those anxious thoughts start to spin?"
         },
         {
           "role": "Client",
-          "content": "What do you mean by a replacement script?"
+          "content": "I guess I could try to remind myself it’s natural for animals to act differently each time. But it's hard to believe just saying it will help much."
         },
         {
           "role": "Counselor",
-          "content": "A replacement script is a supportive statement that you can use to counter negative thoughts. For instance, when you think 'The animals will hate me,' you could replace it with a more compassionate thought. How does that sound?"
+          "content": "Saying it is one part. What if you coupled it with something positive you know about your interactions with animals at work? Could acknowledging your consistent care balance those thoughts?"
         },
         {
           "role": "Client",
-          "content": "That sounds good. I think I need something like that."
+          "content": "Yeah, I suppose reminding myself of the positive feedback I get at work could help a bit. At least there I know I’m doing alright."
         },
         {
           "role": "Counselor",
-          "content": "Great! Let’s work on creating one together. How about: 'When I think the animals will hate me for not remembering them, I will remind myself that animals can have many reasons for their behavior. I care about them, and I’ve had many positive interactions with them before.' Does that capture what you want to express?"
+          "content": "Exactly, linking back to your strengths can be grounding. Let’s incorporate that into a script you might use when these feelings emerge. How does this sound: 'It's natural for animals to not respond the same way each time. My consistent care and love build our bond, and one indifferent interaction doesn’t erase that.'"
         },
         {
           "role": "Client",
-          "content": "Yes, I like that! It feels more balanced."
+          "content": "That does have a comforting ring to it. I can see how reminding myself of my relationship with them over time matters more."
         },
         {
           "role": "Counselor",
-          "content": "Excellent! Now, let’s create an If-Then plan to help you prepare for those triggers. Can you think of a situation where you might feel anxious about returning?"
+          "content": "Good. To prepare for these experiences, let's create a couple of If-Then plans. If you're about to pass by the shelter and notice anxiety bubbling up, what can you do?"
         },
         {
           "role": "Client",
-          "content": "If I start to feel anxious before going to the shelter, I usually just avoid it altogether."
+          "content": "Maybe I'd remind myself about why the animals’ behaviors fluctuate—not just because of me. Recognizing it logically sounds doable."
         },
         {
           "role": "Counselor",
-          "content": "So for that situation, we can create an 'If I start feeling anxious, then I will ...' statement. What do you think could help you in that moment?"
+          "content": "Absolutely, that's a strong plan. If the guilt resurfaces, leading to self-doubt, what steps can we take to counterbalance those thoughts?"
         },
         {
           "role": "Client",
-          "content": "If I start feeling anxious about going, then maybe I could take a few deep breaths and remind myself of the times the animals do remember me."
+          "content": "Listing achievements or good feedback I’ve received recently at work could help. That always feels like proof that I can rely on."
         },
         {
           "role": "Counselor",
-          "content": "Perfect! That's a great strategy. We can also add another If-Then plan: If I notice myself avoiding the shelter, then I will schedule a visit and bring a treat or toy for the animals."
+          "content": "Great thinking. Recalling your strengths can strengthen your resolve. So one If-Then plan is: If you start to feel guilty about the animals not remembering you, then remind yourself of recent achievements. Let's wrap that up into a clear plan."
         },
         {
           "role": "Client",
-          "content": "That sounds like a good plan. Having something positive to focus on might help."
+          "content": "Alright, I’ll try noting these If-Then statements, even though my skeptical side is still loud. But having something concrete might ease that just a bit."
         },
         {
           "role": "Counselor",
-          "content": "Absolutely! By utilizing these replacement scripts and actionable plans, you can build a healthier approach to returning to the shelter. How do you feel about the strategies we've created today?"
-        },
-        {
-          "role": "Client",
-          "content": "I feel more empowered. I like having specific things to say to myself and steps to take when I'm feeling anxious."
-        },
-        {
-          "role": "Counselor",
-          "content": "I'm glad to hear that! It’s a significant step forward. Remember to write down these scripts and plans to refer back to them. How about I summarize what we've worked on today?"
-        },
-        {
-          "role": "Client",
-          "content": "Yes, please."
-        },
-        {
-          "role": "Counselor",
-          "content": "Today, we've created a compassionate replacement script to counteract your catastrophic thoughts. The script reminds you that the animals’ behavior can be influenced by many factors, and highlights your positive past interactions. Additionally, we've developed two If-Then plans to help you deal with anxiety before visiting the shelter. You're making great progress, Brooke."
+          "content": "Your willingness is a crucial step, Brooke. Let's keep exploring these thoughts at a pace that feels right for you. As this week unfolds, see how these steps feel and we'll refine them as needed when we catch up."
         }
       ]
     },
@@ -542,100 +486,84 @@
       "stage_objective": "Practice coping skills and design a concrete plan for high-risk moments.",
       "artifact": {
         "type": "Skills Plan + Crisis Plan",
-        "content": "Coping Skills Plan:\n1. Deep Breathing:\n   - When: Feelings of anxiety arise, especially before visiting the shelter.\n   - How: Inhale deeply for 4 seconds, hold for 4 seconds, exhale for 4 seconds. Repeat until calm.\n\n2. Positive Affirmation:\n   - When: Thoughts of self-doubt come up, especially just before or after a visit to the shelter.\n   - How: Remind yourself, 'I care deeply for these animals, and my worth is not determined by their reactions.'\n\n3. Gratitude Journaling:\n   - When: Feelings of guilt or negativity increase, ideally daily but especially before shelter visits.\n   - How: Write down 3 things you're grateful for related to your pet care or positive experiences with the shelter animals.\n\nCrisis Plan:\n1. Recognize triggers that lead to heightened anxiety or avoidance related to the shelter.\n2. Utilize your coping skills (deep breathing, positive affirmations) to manage distress.\n3. Reach out to a trusted friend or support person to talk about your feelings before making any decisions to avoid the shelter."
+        "content": "Coping Skills: 1. Deep Breathing before approaching the shelter; 2. Positive Affirmations during moments of doubt; 3. Grounding Technique (5-4-3-2-1) when overwhelmed. Crisis Plan: 1. Step away and breathe if overwhelmed; 2. Call a supportive friend if needed; 3. Review positive affirmations."
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Welcome back, Brooke! In our session today, I’d like to focus on building some coping skills and a concrete plan for when you’re feeling anxious about the shelter. How does that sound?"
+          "content": "Hi Brooke, it's nice to see you again. How have you been since our last session?"
         },
         {
           "role": "Client",
-          "content": "Sounds good to me. I could definitely use some tools to help."
+          "content": "Hey, well, honestly, not great. I tried observing the animals like we talked about last time, but it felt kind of pointless. I went to the shelter on Tuesday because they needed help, but I ended up leaving early. I just couldn't shake the feeling that they still didn't recognize me."
         },
         {
           "role": "Counselor",
-          "content": "Great! Let’s start by discussing some coping skills that you can use when you notice those anxious feelings creeping in. What do you think might help you in those moments?"
+          "content": "It sounds like it was a challenging experience for you. It's understandable to feel discouraged when you don't see the changes you're hoping for right away. What did you notice when you were at the shelter?"
         },
         {
           "role": "Client",
-          "content": "I’ve tried deep breathing before, and it helps a bit, but I always forget to do it when I'm anxious."
+          "content": "Most of the animals were just doing their thing, but a few did perk up when I walked in. Not all of them came to me like they used to, though. I kept thinking, maybe they’ve really forgotten me. The staff was busy, and no one really talked, so I felt kind of invisible."
         },
         {
           "role": "Counselor",
-          "content": "That’s a common challenge. What if we made it a regular practice? We could create reminders for you to use deep breathing, especially during high-stress moments."
+          "content": "I can imagine how hard that must have been. You mentioned the staff being busy—could that have been a factor in how you were feeling too? Sometimes our perception of the environment can affect how we interpret situations."
         },
         {
           "role": "Client",
-          "content": "That could work. Like maybe set an alarm on my phone or something?"
+          "content": "Yes, I guess. Everyone had their own tasks and didn't seem to notice me much. It made me feel out of place, like I didn’t belong there anymore."
         },
         {
           "role": "Counselor",
-          "content": "Exactly! And alongside deep breathing, do you think positive affirmations could help when self-doubt arises?"
+          "content": "It's difficult to feel disconnected in a place that used to bring you joy. I wonder if we could work on identifying some skills or techniques that might help you manage these emotions when you're in those moments. Would you be open to that?"
         },
         {
           "role": "Client",
-          "content": "I guess repeating something positive might ease my thoughts during those moments."
+          "content": "I suppose it wouldn't hurt to try. I'm not sure what would work, though. Every time I think about reminders like deep breathing or something, it feels silly in the moment."
         },
         {
           "role": "Counselor",
-          "content": "Yes, definitely. We could establish a couple of affirmations that resonate with you. Do you have any in mind?"
+          "content": "It can feel a bit awkward at first, but sometimes simple techniques like deep breathing can create a little space between your thoughts and emotions. Have you tried anything like that during stressful situations before?"
         },
         {
           "role": "Client",
-          "content": "I might say something like, 'I am good at helping animals, and their reactions don’t define my worth.'"
+          "content": "I’ve tried deep breathing before, but only when I’m already too far gone with anxiety. Maybe it could work if I remembered to do it earlier."
         },
         {
           "role": "Counselor",
-          "content": "That’s a wonderful affirmation! Now, in addition to these skills, I think gratitude journaling might be another useful tool for you. What do you think?"
+          "content": "That's a great insight, Brooke. Practicing these skills before the anxiety peaks can be helpful. Let's brainstorm a few techniques that you think you could realistically incorporate when heading to the shelter or during moments of doubt."
         },
         {
           "role": "Client",
-          "content": "That sounds interesting. Writing down positive things could shift my focus from anxiety."
+          "content": "Alright, well, I guess starting with deep breathing, like you said, might help when I'm first feeling the anxiety. And maybe some kind of positive affirmations when I feel doubt creeping in? Like reminding myself the animals are just animals—they don’t think like us."
         },
         {
           "role": "Counselor",
-          "content": "Exactly! Let’s plan to use that skill daily or especially before your visits to the shelter. Now, thinking about high-risk moments—like an anxious visit—let's outline a crisis plan."
+          "content": "Wonderful ideas. Positive affirmations can be very powerful. Is there a grounding technique that you find effective, perhaps something like the 5-4-3-2-1 exercise to help you stay present?"
         },
         {
           "role": "Client",
-          "content": "Sure. I definitely need a plan for when I feel overwhelmed."
+          "content": "I’ve heard of the 5-4-3-2-1 thing before. I haven’t tried it, but I guess focusing on the present by noticing things around me could pull me out of my head."
         },
         {
           "role": "Counselor",
-          "content": "First, recognize your triggers—what might lead to that heightened anxiety?"
+          "content": "Great, we'll note that down. For our crisis plan, let’s think about what steps you might take if you start to feel overwhelmed again, like you did the other day."
         },
         {
           "role": "Client",
-          "content": "Visiting the shelter or even just thinking about it."
+          "content": "I guess first I’d need to just step away for a moment and try those breathing exercises. Maybe I could call a friend if it feels really bad, someone who could talk me through it."
         },
         {
           "role": "Counselor",
-          "content": "Great. So, next, you would use one of your coping skills—like the deep breathing or affirmations—to manage that distress."
+          "content": "Excellent suggestions. Having someone to support you in those critical moments can be very helpful. Let's say that's step two. For step three, maybe you could review some of your positive affirmations or accomplishments?"
         },
         {
           "role": "Client",
-          "content": "Okay, and then what?"
+          "content": "Yeah, I could write a few affirmations down, like reminders of my successes, and keep them handy. Sounds smart."
         },
         {
           "role": "Counselor",
-          "content": "If that feels overwhelming, reaching out to a trusted friend to talk about those feelings can be really helpful before making any decision to avoid the shelter."
-        },
-        {
-          "role": "Client",
-          "content": "I like that. It helps to know I have someone to talk to."
-        },
-        {
-          "role": "Counselor",
-          "content": "Absolutely! So, to summarize, your coping plan includes deep breathing, positive affirmations, and gratitude journaling. Your crisis plan helps you recognize triggers, utilize those coping skills, and reach out for support. Does that sound good?"
-        },
-        {
-          "role": "Client",
-          "content": "Yes, it really does. I feel more prepared."
-        },
-        {
-          "role": "Counselor",
-          "content": "I’m glad to hear that, Brooke! Remember, practice makes perfect. We can fine-tune these plans as we go along. Thank you for working on this together today."
+          "content": "That's a solid plan, Brooke. Practicing these skills might not feel natural right away, but trust the process; it can get easier with time. Let's commit to trying at least one of these coping skills before our next session. Does that sound manageable?"
         }
       ]
     },
@@ -645,100 +573,92 @@
       "stage_objective": "Review gains and formalize a long-term maintenance plan and setback prevention.",
       "artifact": {
         "type": "Maintenance + Setback Prevention Plan",
-        "content": "Maintenance Plan (Weekly Goals for Next 2–4 Weeks):\n1. Week 1: Schedule a visit to the shelter and observe animal behaviors, noting positive interactions.\n2. Week 2: Practice positive affirmations daily, especially when feeling self-doubt before visiting.\n3. Week 3: Keep a gratitude journal by noting down three positive experiences with animals each day.\n4. Week 4: Revisit the shelter and focus on connecting with animals that remembered you. Set a goal to spend at least 30 minutes there. \n\nSetback Prevention Checklist:\n1. Identify triggers that cause anxiety about going to the shelter.\n2. Use deep breathing techniques during high-anxiety moments.\n3. Remind yourself of past positive interactions with animals.\n4. Reach out to a friend for support if the urge to avoid the shelter arises."
+        "content": "Weekly Goals: 1. Visit the animal shelter at least once each week to gradually increase comfort. 2. Practice decatastrophizing whenever negative thoughts surface. 3. Use grounding techniques when feeling overwhelmed. Setback Prevention Checklist: 1. Identify triggers and note emotions in a journal. 2. Have contact information of a supportive friend ready for tough days. 3. Regularly review and adjust the if-then plans and coping strategies."
       },
       "dialogue": [
         {
           "role": "Counselor",
-          "content": "Hi, Brooke! It's great to see you again. As we wrap up our sessions today, I’d like to explore all the progress you've made and how we can ensure you maintain your gains moving forward."
+          "content": "Hi Brooke, good to see you again. How have you been feeling since our last session?"
         },
         {
           "role": "Client",
-          "content": "Hi! Thanks. I feel like I've made some improvements, but I'm still a bit nervous about what happens next."
+          "content": "Well, I tried going back to the shelter like we talked about, but it didn’t go as planned. Some of the animals seemed distant again, and I just couldn’t shake the feeling that they don’t like me anymore."
         },
         {
           "role": "Counselor",
-          "content": "That's completely understandable. Change can be intimidating. What are some specific gains or changes you've noticed since we started working together?"
+          "content": "That sounds really tough, and your feelings make complete sense. What did you do when you noticed those thoughts starting to spiral?"
         },
         {
           "role": "Client",
-          "content": "I think I've become better at challenging my negative thoughts, especially that they will all hate me. I do feel more at ease thinking they might not remember me due to other reasons."
+          "content": "I tried using the breathing exercises we practiced, but honestly, they didn't really help. I ended up leaving early, feeling pretty defeated."
         },
         {
           "role": "Counselor",
-          "content": "That’s wonderful to hear! Recognizing those alternative explanations is a significant step. Have you been able to use any of the coping strategies we discussed?"
+          "content": "It’s okay that it didn't go perfectly. You made the initial step, which is important. Let’s review what happened to see what we can adjust for next time."
         },
         {
           "role": "Client",
-          "content": "Yes! The deep breathing has been helpful, especially right before I think about going to the shelter."
+          "content": "I guess it’s just that everything looked the same at the shelter but felt different inside. Even though I recognized some of the dogs' barks, they seemed to treat me like a stranger. It's so gut-wrenching because if the animals can sense something's off, then maybe I really am bad at this."
         },
         {
           "role": "Counselor",
-          "content": "Excellent! It sounds like you’ve implemented some solid strategies. With that in mind, let’s develop a maintenance plan together. How would you like to continue practicing these skills over the next few weeks?"
+          "content": "What you’re experiencing is a common reaction to change and unfamiliarity. Can you recall any moments, even small ones, where the animals did react positively?"
         },
         {
           "role": "Client",
-          "content": "I think visiting the shelter weekly could help, along with keeping a journal of my experiences there."
+          "content": "Actually, there was this one cat that rubbed against my leg, but I didn’t focus on that at the time. It seemed like such a minor detail compared to the rest."
         },
         {
           "role": "Counselor",
-          "content": "That sounds like a great plan! What if we also set a few goals for you to work on each week related to your visits?"
+          "content": "It’s interesting that you noticed the positive moment but discounted it. Let’s build on that. How can we create a plan to increase those moments of connection?"
         },
         {
           "role": "Client",
-          "content": "Sure, I’d like that. Maybe I can focus on different animals each week?"
+          "content": "Maybe I could try visiting more regularly? Wouldn’t that freak them out if it doesn’t go well, though?"
         },
         {
           "role": "Counselor",
-          "content": "That's a fantastic idea! Focusing on individual animals could help you build those positive interactions. Let's outline your maintenance plan with specific weekly goals."
+          "content": "It’s possible there will be challenging visits, but consistency can gradually build familiarity and comfort for both you and the animals. Shall we include that in your weekly goals?"
         },
         {
           "role": "Client",
-          "content": "Okay, let’s do it."
+          "content": "I guess I can try. Once a week might be manageable, but I’m terrified what the animals will think."
         },
         {
           "role": "Counselor",
-          "content": "Week 1 could be scheduling a visit to the shelter and observing animal behaviors while noting any positive interactions. How does that sound?"
+          "content": "It’s natural to feel apprehensive. Perhaps we can add techniques like decatastrophizing to help manage those thoughts when they start."
         },
         {
           "role": "Client",
-          "content": "That sounds good! What about the second week?"
+          "content": "Yeah, that makes sense. Trying to see things differently might stop me from immediately jumping to conclusions."
         },
         {
           "role": "Counselor",
-          "content": "Week 2, you would practice positive affirmations daily, especially when you feel self-doubt before your visits. Then for Week 3, keeping a gratitude journal noting three positive experiences each day."
+          "content": "Great. For our setback prevention, how about having a journal handy to track your thoughts and reactions, and the contact information of a supportive friend?"
         },
         {
           "role": "Client",
-          "content": "I like that! And then Week 4 can be revisiting the shelter and spending time with the animals that remember me."
+          "content": "Journaling could work. I’m not big on sharing all this with friends, though. It feels like I’m a burden."
         },
         {
           "role": "Counselor",
-          "content": "Yes! That gives you a complete game plan for the next month. Now, let’s also create a setback prevention checklist to support you if you're feeling resistant to visiting."
+          "content": "Your concern is valid, but sometimes friends appreciate being there for you. Maybe start small, just having them there can help."
         },
         {
           "role": "Client",
-          "content": "That sounds important."
+          "content": "Alright, I can reach out if things get really tough. What's next on our list?"
         },
         {
           "role": "Counselor",
-          "content": "Firstly, identify triggers that cause you anxiety about the shelter. Secondly, use deep breathing techniques during those moments. Next, remind yourself of your past positive interactions with the animals. Lastly, reach out to a friend for support if you feel you want to avoid going."
+          "content": "For now, let’s maintain a focus on frequent visits and using your coping strategies. We’ll revisit and refine as necessary. How does that sound for now?"
         },
         {
           "role": "Client",
-          "content": "I think that would really help! Putting it all down like this makes it feel more manageable."
+          "content": "Okay, that sounds doable. I’ll start with the visits and see how things unfold."
         },
         {
           "role": "Counselor",
-          "content": "I'm glad to hear that! The structured approach can definitely make it feel more achievable. How do you feel about everything we've discussed today?"
-        },
-        {
-          "role": "Client",
-          "content": "I feel relieved and hopeful. It’s nice to have a plan."
-        },
-        {
-          "role": "Counselor",
-          "content": "That’s wonderful to hear, Brooke. You've made significant progress, and I'm confident you can continue to build on this. Remember, it’s a journey, and it’s okay to take it one step at a time. Thank you for your openness throughout our sessions!"
+          "content": "That’s a solid plan. Remember, adjusting is part of the process. Keep track of your observations and we can discuss them next time."
         }
       ]
     }

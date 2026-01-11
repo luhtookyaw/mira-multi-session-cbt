@@ -148,34 +148,57 @@ def build_user_prompt(
             }
         )
 
-    return f"""You will generate {stage_cfg["session_id"]}.
+    return f"""You are an expert Clinical Simulation Engine. You are simulating a realistic, multi-session CBT therapy trajectory. 
 
-TARGET STAGE:
-- session_id: {stage_cfg["session_id"]}
-- stage: {stage_cfg["stage"]}
-- stage_objective: {stage_cfg["objective"]}
-- required_artifact_type: {stage_cfg["artifact_type"]}
-- artifact_requirements: {stage_cfg["artifact_requirements"]}
+CRITICAL RULE: This must NOT be an "ideal" textbook session. Real therapy is messy, non-linear, and filled with resistance.
 
-CASE (CACTUS) CONTEXT:
-- client_info: {json.dumps(client_info, ensure_ascii=False)}
-- core_thought: {thought}
-- cognitive_distortion_patterns: {json.dumps(patterns, ensure_ascii=False)}
-- presenting_problem_bullets: {json.dumps(presenting_problem, ensure_ascii=False)}
-- cbt_technique: {cbt_technique}
-- attitude: {case.get("attitude", "")}
-- original_cbt_plan: {json.dumps(case.get("cbt_plan", {}), ensure_ascii=False)}
+TARGET STAGE CONFIGURATION:
+- Session ID: {stage_cfg["session_id"]}
+- Stage Name: {stage_cfg["stage"]}
+- Clinical Objective: {stage_cfg["objective"]}
+- Required Artifact: {stage_cfg["artifact_type"]}
+- Artifact Focus: {stage_cfg["artifact_requirements"]}
 
-SESSION 0 (S0) TRANSCRIPT (given, do not rewrite; use as history):
-{s0_text}
+CLIENT PROFILE (THE "CASE"):
+- Demographics/Info: {json.dumps(client_info, ensure_ascii=False)}
+- Core Maladaptive Schema: {thought}
+- Distortion Patterns: {json.dumps(patterns, ensure_ascii=False)}
+- Presenting Problems: {json.dumps(presenting_problem, ensure_ascii=False)}
+- Selected Technique: {cbt_technique}
+- Baseline Attitude: {case.get("attitude", "Anxious but willing")}
 
-PRIOR GENERATED SESSIONS (if any):
-{json.dumps(prior_summaries, ensure_ascii=False, indent=2)}
+HISTORY & CONTEXT:
+- Session 0 (Assessment) Transcript: {s0_text}
+- Summary of Prior Generated Sessions: {json.dumps(prior_summaries, ensure_ascii=False, indent=2)}
 
+---------------------------------------------------------
+SIMULATION PARAMETERS (APPLY THESE STRICTLY):
+
+1. TEMPORAL CONTINUITY:
+    - Assume 1 week has passed since the last session.
+    - The client must reference a specific event (a success or a failure) that happened *between* sessions.
+    - Homework Check: The client should NOT have completed the homework perfectly. They might have forgotten, done it halfway, or found it "useless."
+
+2. CLIENT BEHAVIOR (RESISTANCE MODE):
+    - Do not agree immediately. Use the "Yes, But..." pattern (e.g., "I see your point logicially, but I still feel guilty.").
+    - Show physical symptoms of distress (e.g., looking away, fidgeting) in the text description or dialogue.
+    - If the counselor pushes too fast, the client should pull back or become defensive.
+
+3. COUNSELOR BEHAVIOR (SOCRATIC MODE):
+    - Do NOT lecture. Do NOT read off lists.
+    - Use "Socratic Questioning" (asking questions to lead the client to the answer) rather than giving answers.
+    - If the client resists, validate the emotion first ("It makes sense you feel that way...") before moving to logic.
+
+4. ARTIFACT GENERATION:
+    - The dialogue must *lead* to the creation of the artifact naturally. 
+    - DO NOT have the characters recite the artifact row-by-row. 
+    - The JSON output artifact field should be the "clean" version, but the dialogue should show the "messy draft" discussion.
+
+---------------------------------------------------------
 INSTRUCTIONS:
-- Continue the therapy naturally from S0 and prior sessions.
-- Ensure the dialogue meets the formatting + turn constraints.
-- End the session with the Counselor summarizing and clearly stating the artifact content.
+- Generate the dialogue for {stage_cfg["session_id"]}.
+- Ensure the dialogue flows naturally from the previous summaries.
+- End the session with a plan for the next week, but keep the tone realistic.
 - Output JSON ONLY matching the required schema.
 """
 
