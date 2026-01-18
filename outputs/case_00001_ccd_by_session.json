@@ -1,0 +1,253 @@
+{
+  "case_id": "case_00001",
+  "model": "gpt-4o-mini",
+  "system_prompt_path": "prompts/system_prompt.md",
+  "use_cumulative": true,
+  "include_s0": true,
+  "sessions": [
+    {
+      "session_id": "S1",
+      "stage": "Build Trust & Assessment",
+      "stage_objective": "Build rapport, clarify goals, assess the problem, and agree on a simple tracking task.",
+      "client_utterances_count": 10,
+      "evidence_utterances_count": 23,
+      "ccd": {
+        "Situation": "Walking past the animal shelter and feeling unable to enter due to fear of rejection from the animals.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for leaving.",
+          "I'm not good enough to volunteer there anymore.",
+          "If they don't remember me, it feels like everything I've done doesn’t matter."
+        ],
+        "Emotions": [
+          "anxiety",
+          "guilt",
+          "self-doubt",
+          "sadness",
+          "feeling of failure"
+        ],
+        "Behaviors": [
+          "avoiding going back to the shelter",
+          "distancing myself from other volunteers",
+          "replaying the visit in my mind",
+          "observing from a distance"
+        ],
+        "Intermediate_Beliefs": [
+          "If they don't remember me, then I must not be good enough.",
+          "If the animals hate me, then my work doesn’t matter.",
+          "If I was better, they wouldn’t act that way."
+        ],
+        "Core_Beliefs": [
+          "I'm a failure.",
+          "I must be memorable to be valuable.",
+          "I am not cut out for this kind of work."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    },
+    {
+      "session_id": "S2",
+      "stage": "Identifying Negative Cognitions",
+      "stage_objective": "Review the log and map situation→thought→emotion→body→behavior to identify automatic thoughts.",
+      "client_utterances_count": 10,
+      "evidence_utterances_count": 33,
+      "ccd": {
+        "Situation": "Walking past the animal shelter after not visiting for a while.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for not going in sooner.",
+          "I let the animals down.",
+          "I'm not good enough to volunteer there anymore.",
+          "They've labeled me as 'the one who left.'"
+        ],
+        "Emotions": [
+          "Anxiety",
+          "Guilt",
+          "Self-doubt",
+          "Sadness"
+        ],
+        "Behaviors": [
+          "Avoiding going to the shelter.",
+          "Walking past the shelter without looking directly.",
+          "Trying to observe animals from a distance."
+        ],
+        "Intermediate_Beliefs": [
+          "If I was better or more memorable, they wouldn’t have acted that way.",
+          "If the animals don’t remember me, it feels like everything I've done doesn’t matter."
+        ],
+        "Core_Beliefs": [
+          "I'm not cut out for this kind of work.",
+          "I must be perfect to be acceptable."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    },
+    {
+      "session_id": "S3",
+      "stage": "Challenging False Beliefs",
+      "stage_objective": "Reality-test distorted thoughts and generate a more balanced alternative thought.",
+      "client_utterances_count": 10,
+      "evidence_utterances_count": 43,
+      "ccd": {
+        "Situation": "Going to the animal shelter where I volunteer and feeling rejected by the animals.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for not remembering me.",
+          "I'm not good enough to volunteer there anymore.",
+          "They don't remember me, so why bother anymore?"
+        ],
+        "Emotions": [
+          "Anxiety",
+          "Guilt",
+          "Self-doubt",
+          "Sadness"
+        ],
+        "Behaviors": [
+          "Avoiding going to the shelter.",
+          "Walking faster past the shelter.",
+          "Not observing the animals as much as planned."
+        ],
+        "Intermediate_Beliefs": [
+          "If I was better or more memorable, they wouldn’t have acted that way.",
+          "If they don't remember me, it feels like everything I've done doesn’t matter."
+        ],
+        "Core_Beliefs": [
+          "I'm a failure.",
+          "I must be perfect to be accepted.",
+          "Animals are my safe space."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    },
+    {
+      "session_id": "S4",
+      "stage": "Restructuring Cognitive Patterns",
+      "stage_objective": "Create adaptive replacement scripts and an If–Then plan for predictable triggers.",
+      "client_utterances_count": 9,
+      "evidence_utterances_count": 52,
+      "ccd": {
+        "Situation": "Feeling anxious about going back to the animal shelter after animals didn't recognize me during a past visit.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for leaving.",
+          "I'm not good enough to volunteer there anymore.",
+          "They don't remember me, so why bother anymore?",
+          "Maybe I'm just not cut out for this kind of work.",
+          "What if they hate me for not going in sooner?",
+          "I let the animals down."
+        ],
+        "Emotions": [
+          "Anxiety",
+          "Guilt",
+          "Self-doubt",
+          "Sadness",
+          "Fear",
+          "Overwhelm"
+        ],
+        "Behaviors": [
+          "Avoiding going back to the shelter.",
+          "Passing by the shelter without entering.",
+          "Trying to observe animals from a distance.",
+          "Racing heart and tightness in chest.",
+          "Walking faster to avoid being seen."
+        ],
+        "Intermediate_Beliefs": [
+          "If the animals don't remember me, then I've failed.",
+          "If I don't act memorable, then I will be ignored.",
+          "If they don't respond to me, then I am not good at my job.",
+          "I should have done something different to be remembered."
+        ],
+        "Core_Beliefs": [
+          "I'm not good enough.",
+          "I must be liked by the animals to be a good volunteer.",
+          "Rejection means failure."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    },
+    {
+      "session_id": "S5",
+      "stage": "Behavioral Skill Building",
+      "stage_objective": "Practice coping skills and design a concrete plan for high-risk moments.",
+      "client_utterances_count": 9,
+      "evidence_utterances_count": 61,
+      "ccd": {
+        "Situation": "Walking past the animal shelter and not being recognized by the animals.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for not remembering me.",
+          "I'm not good enough to volunteer there anymore.",
+          "They don't remember me, so why bother anymore?",
+          "I'm just not cut out for this kind of work.",
+          "Maybe they’ve really forgotten me."
+        ],
+        "Emotions": [
+          "Anxiety",
+          "Guilt",
+          "Self-doubt",
+          "Sadness",
+          "Feeling invisible"
+        ],
+        "Behaviors": [
+          "Avoiding going back to the shelter.",
+          "Walking faster past the shelter and not looking directly at it.",
+          "Leaving early from volunteering at the shelter.",
+          "Trying to observe animals from a distance."
+        ],
+        "Intermediate_Beliefs": [
+          "If the animals don’t remember me, then I must not be good enough.",
+          "If I see them not respond, then I will feel rejected.",
+          "I should always be memorable to the animals.",
+          "If I avoid the shelter, it won't hurt as much."
+        ],
+        "Core_Beliefs": [
+          "I am not good enough.",
+          "I need the approval of others to feel worthy.",
+          "I am a failure if I am not recognized."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    },
+    {
+      "session_id": "S6",
+      "stage": "Consolidation & Termination",
+      "stage_objective": "Review gains and formalize a long-term maintenance plan and setback prevention.",
+      "client_utterances_count": 10,
+      "evidence_utterances_count": 71,
+      "ccd": {
+        "Situation": "Going back to the animal shelter where I volunteer after not being recognized by the animals.",
+        "Automatic_Thoughts": [
+          "The animals will hate me for not remembering me.",
+          "I'm not good enough to volunteer there anymore.",
+          "They don't remember me, so why bother anymore?",
+          "Maybe they’ve really forgotten me."
+        ],
+        "Emotions": [
+          "Anxiety",
+          "Guilt",
+          "Self-doubt",
+          "Sadness",
+          "Fear"
+        ],
+        "Behaviors": [
+          "Avoiding going back to the shelter",
+          "Walking past without going in",
+          "Noticing animal behavior from a distance",
+          "Leaving early from the shelter"
+        ],
+        "Intermediate_Beliefs": [
+          "If I was better or more memorable, they wouldn’t have acted that way.",
+          "If the animals don’t react positively, it means I’ve failed.",
+          "If they don't respond, I must have let them down."
+        ],
+        "Core_Beliefs": [
+          "I'm not cut out for this kind of work.",
+          "I must be instantly liked and recognized to be valued.",
+          "I am a failure if animals don't remember me."
+        ]
+      },
+      "status": "ok",
+      "error": null
+    }
+  ]
+}
